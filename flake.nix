@@ -68,7 +68,7 @@
             echo "package gqlmodel" > generated/gqlmodel/dummy.go
             echo "package gqlschema" > generated/gqlschema/dummy.go
 
-            # Generate dummy UI files
+            # Generate dummy UI files (Frontend build skipped due to legacy dependency incompatibilities)
             mkdir -p ui/build
             touch ui/build/index.html
             touch ui/build/manifest.json
